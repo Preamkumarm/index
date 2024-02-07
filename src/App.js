@@ -39,7 +39,7 @@ var addpopupbutton=document.getElementById("add-popup-button")
        
       </div>
      </div>
-     <button className="add-button" id="add-popup-button" onClick={one()}>+</button>
+     <button className="add-button" id="add-popup-button" onClick={one}>+</button>
   </div>)
 }
 export default App
