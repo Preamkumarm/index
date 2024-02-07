@@ -9,8 +9,6 @@ function one(event)
 var addpopupbutton=document.getElementById("add-popup-button")
 
  addpopupbutton.addEventListener("click",function(){
-
- 
  popupoverlay.style.display="block"
  popupbox.style.display="block"
 })
