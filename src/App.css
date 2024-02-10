@@ -54,6 +54,7 @@
   position: absolute;
   top: 20%;
   left: 30%;
+  z-index: 2;
   display: none;
 }
 .popup-box input{
@@ -71,7 +72,7 @@
   padding: 5px;
   font-size: 20px;
   border: solid black 2px;
-  text-emphasis-color: black;
+ 
 }
 .popup-box input::placeholder{
   color:black;
@@ -112,3 +113,6 @@
   right: 30px;
 }
 
+.popup-box input:focus{
+  outline: none;
+}
